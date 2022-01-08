@@ -47,6 +47,6 @@ app.use(require('./routes'));
 //use en este caso se le indica que cuando acceda a la ruta graficos, él llame al archivo graficos que se encuentra dentro de routes
 app.use('/graficos/', require('./routes/graficos'));
 //listen en este caso usa un app.get para obtener lo que hay en la variable port y así conectarse al puerto
-app.listen(app.get('port'), () => {
-    console.log('Conectado en puerto', app.get('port'));
-});
+// app.listen(app.get('port'), () => {
+//     console.log('Conectado en puerto', app.get('port'));
+// });
