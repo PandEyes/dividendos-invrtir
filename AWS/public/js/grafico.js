@@ -1,8 +1,8 @@
-//regTransform almacena el reemplazo que se hace con replace de lo que viene en urln
-let regTransform = urln.replace(/\/div\/grafico\//, '');
 // let url = new URL(document.location.href);
 // urln guarda lo que viene después del nombre de la URL
 let urln = document.location.pathname;
+//regTransform almacena el reemplazo que se hace con replace de lo que viene en urln
+let regTransform = urln.replace(/\/div\/grafico\//, '');
 //nombreIndice almacena lo que viene de regTransform
 const nombreIndice = regTransform;
 //ctx almacena lo que viene de llamar al id chart en nuestro archivo HTML y obtiene un contexto para indicarle lo que hará el canvas
