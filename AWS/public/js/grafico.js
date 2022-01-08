@@ -36,6 +36,7 @@ const plugin = {
 };
 //Se crea una función llamada totalChart que tiene dos parámetros: ctx y extraerdatos
 function totalChart(ctx, extraerdatos){
+    console.log(extraerdatos);
     //Se creó chart con un new estableciendo que es una clase. A esa clase se le pasó un parámetro con un contexto y como segundo 
     //parámetro se le manda un objeto con diferentes propiedades. Estas propiedades son las que vienen incluidas dentro de la 
     //documentación de chart.js
