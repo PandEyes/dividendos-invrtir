@@ -1,9 +1,9 @@
-service: grafico-ganancias
+service: grafico-dividendos
 
 provider:
   name: aws
   runtime: nodejs14.x
-  stage: gan
+  stage: div
   region: us-east-2
 
 functions:
