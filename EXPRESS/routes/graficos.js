@@ -30,7 +30,6 @@ router.get('/grafico/:indice', async (req, res) => {
         //y se le indica con toUpperCase que la ponga en mayúscula. Luego, con el + y el slice se le dice que corte 
         //lo que está en la posición entre paréntesis, en este caso la segunda
         i.colorBarra2 = process.env.COLOR_BARRAS2;
-        i.nombreGrafico = process.env.NOMBRE_TABLA.charAt(0).toUpperCase() + process.env.NOMBRE_TABLA.slice(1);
     });
     //Se transforma en JSON el objeto datosNuevos con los cambios realizados 
     JSON.stringify(datosNuevos);
